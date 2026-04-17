@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yesteryear is an editorial scrolling prototype built around 90s minimalism, authorship, and restraint."
+    />
+    <title>Yesteryear</title>
+    <link
+      rel="preload"
+      as="image"
+      href="./references/photos/6F767587-314B-4359-A1F3-000C2B55F294_1_105_c.jpeg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./references/photos/69EB8015-704D-45CC-8B97-22A62F1559C0_1_105_c.jpeg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./references/photos/rosa-rafael-splDN81-Qr8-unsplash.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./references/online/frame6-linger-1.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./references/online/frame7-linger-2.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./references/online/frame6-promise.jpg"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="story" aria-label="Yesteryear editorial story">
+      <section class="frame frame-one reveal is-visible" aria-labelledby="frame-one-title">
+        <div class="frame-media reveal-media">
+          <img
+            src="./references/photos/6F767587-314B-4359-A1F3-000C2B55F294_1_105_c.jpeg"
+            alt="A woman holding red flowers at a New York intersection."
+            loading="eager"
+          />
+        </div>
+
+        <div class="frame-shell frame-one-shell reveal-copy">
+          <p id="frame-one-title" class="display-title frame-one-title">NEW YORK</p>
+        </div>
+      </section>
+
+      <section class="frame frame-two reveal" aria-labelledby="frame-two-title">
+        <div class="frame-media reveal-media">
+          <img
+            src="./references/photos/69EB8015-704D-45CC-8B97-22A62F1559C0_1_105_c.jpeg"
+            alt="Two women in restrained silhouettes standing beneath a New York overpass."
+          />
+        </div>
+
+        <div class="frame-shell frame-two-shell reveal-copy">
+          <h1 id="frame-two-title" class="frame-two-title">
+            <span class="frame-two-accent">90s</span>
+            <span class="frame-two-accent">minimalism:</span>
+            <span class="frame-two-main">a love story</span>
+          </h1>
+        </div>
+      </section>
+
+      <section class="frame frame-three reveal" aria-labelledby="frame-three-title">
+        <div class="frame-shell frame-three-shell">
+          <figure class="detail-figure reveal-media">
+            <img
+              class="detail-image"
+              src="./references/photos/rosa-rafael-splDN81-Qr8-unsplash.jpg"
+              alt="A cropped black-and-white view of straight-leg jeans on a city sidewalk."
+            />
+          </figure>
+
+          <div class="detail-copy reveal-copy">
+            <h2 id="frame-three-title" class="sr-only">The Detail</h2>
+            <p>
+              The high-rise straight leg<br />
+              defined the silhouette of 90s<br />
+              minimalism.
+            </p>
+            <p>
+              It doesn&apos;t ask for anything.<br />
+              It just sets the line.
+            </p>
+            <div class="detail-rule" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame frame-four reveal" aria-labelledby="frame-four-title">
+        <div class="frame-shell frame-four-shell">
+          <h2 id="frame-four-title" class="sr-only">The Breath</h2>
+          <figure class="breath-figure reveal-media">
+            <img
+              class="breath-image"
+              src="./references/photos/rosa-rafael-kS45k62rKOQ-unsplash.jpg"
+              alt="A quiet subway carriage with amber seats and dim evening light."
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="frame frame-five reveal" aria-labelledby="frame-five-title">
+        <div class="frame-shell invitation-shell">
+          <div class="invitation-visual reveal-media">
+            <figure class="invitation-figure">
+              <img
+                class="invitation-image"
+                src="./references/online/frame5-question.jpg"
+                alt="A black-and-white editorial image of a woman moving through an industrial city edge."
+              />
+            </figure>
+          </div>
+
+          <div class="invitation-copy reveal-copy">
+            <h2 id="frame-five-title" class="display-title invitation-title">What&apos;s pulling you in</h2>
+
+            <div class="choice-list primary-choice-list" data-primary-list>
+              <button class="choice primary-choice" type="button" data-signal="feeling" aria-pressed="false">
+                <span class="choice-text">The feeling of it</span>
+              </button>
+              <button class="choice primary-choice" type="button" data-signal="fit" aria-pressed="false">
+                <span class="choice-text">How the clothes fall and fit</span>
+              </button>
+              <button class="choice primary-choice" type="button" data-signal="texture" aria-pressed="false">
+                <span class="choice-text">The colors and textures</span>
+              </button>
+              <button class="choice primary-choice" type="button" data-signal="composition" aria-pressed="false">
+                <span class="choice-text">How everything comes together</span>
+              </button>
+              <button class="choice primary-choice" type="button" data-signal="piece" aria-pressed="false">
+                <span class="choice-text">A specific piece</span>
+              </button>
+              <button class="choice primary-choice" type="button" data-signal="nothing" aria-pressed="false">
+                <span class="choice-text">Nothing yet</span>
+              </button>
+            </div>
+
+            <div class="followup-panel" data-followup-panel hidden>
+              <p class="followup-question" data-followup-question></p>
+              <div class="choice-list followup-choice-list" data-followup-list></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame frame-six reveal" aria-labelledby="frame-six-title">
+        <div class="frame-media reveal-media frame-media-soft">
+          <img
+            src="./references/online/frame6-linger-1.jpg"
+            alt="A woman leaning across a railing on a Manhattan street in a dark slip dress and narrow heels."
+          />
+        </div>
+
+        <div class="frame-shell linger-photo-shell reveal-copy">
+          <p id="frame-six-title" class="linger-caption">late light</p>
+        </div>
+      </section>
+
+      <section class="frame frame-seven reveal" aria-labelledby="frame-seven-title-photo">
+        <div class="frame-media reveal-media frame-media-soft">
+          <img
+            src="./references/online/frame7-linger-2.jpg"
+            alt="A close portrait of a woman sitting on a New York street in a black dress and earrings."
+          />
+        </div>
+
+        <div class="frame-shell linger-photo-shell reveal-copy linger-photo-shell-right">
+          <p id="frame-seven-title-photo" class="linger-caption">narrow line</p>
+        </div>
+      </section>
+
+      <section class="frame frame-eight reveal" aria-labelledby="frame-eight-title">
+        <div class="frame-shell linger-question-shell reveal-copy">
+          <h2 id="frame-eight-title" class="display-title invitation-title">What else made you linger?</h2>
+          <div class="choice-list linger-choice-list" data-linger-list>
+            <button class="choice linger-choice" type="button" data-linger="railing" aria-pressed="false">
+              <span class="choice-text">The black iron railing</span>
+            </button>
+            <button class="choice linger-choice" type="button" data-linger="slingback" aria-pressed="false">
+              <span class="choice-text">The pointed slingback</span>
+            </button>
+            <button class="choice linger-choice" type="button" data-linger="pink" aria-pressed="false">
+              <span class="choice-text">The pale pink at the hip</span>
+            </button>
+            <button class="choice linger-choice" type="button" data-linger="shoulder" aria-pressed="false">
+              <span class="choice-text">The bare shoulder against the street</span>
+            </button>
+            <button class="choice linger-choice" type="button" data-linger="bob" aria-pressed="false">
+              <span class="choice-text">The short dark bob and earring</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame frame-nine reveal" aria-labelledby="frame-nine-title" data-promise-frame>
+        <div class="frame-media reveal-media frame-nine-media">
+          <img
+            src="./references/online/frame6-promise.jpg"
+            alt="A woman in a trench coat walking into warm city light at dusk."
+          />
+        </div>
+
+        <div class="frame-shell frame-nine-shell reveal-copy">
+          <div class="promise-copy">
+            <p class="promise-kicker" data-promise-kicker>Closer</p>
+            <h2 id="frame-nine-title" class="display-title promise-title" data-promise-title>Your edit is almost there.</h2>
+            <p class="promise-detail" data-promise-detail>
+              One more practical note, and the line can answer back.
+            </p>
+            <button class="promise-button" type="button" data-edit-trigger disabled>your edit</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame frame-ten reveal" aria-labelledby="frame-ten-title" data-size-frame>
+        <div class="frame-shell size-frame-shell reveal-copy">
+          <div class="size-frame-rule size-frame-rule-top" aria-hidden="true"></div>
+          <div class="size-frame-copy">
+            <h2 id="frame-ten-title" class="display-title size-frame-title">What should it answer to?</h2>
+            <p class="size-frame-intro" data-size-intro>
+              Tell us the shape it has to meet, and the first edit can stop being abstract.
+            </p>
+
+            <div class="size-grid">
+              <div class="size-block">
+                <p class="size-label">Bottoms</p>
+                <div class="size-options" role="list" aria-label="Choose bottoms size">
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="24">24</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="25">25</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="26">26</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="27">27</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="28">28</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="29">29</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="30">30</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="31">31</button>
+                  <button class="size-choice" type="button" data-size-group="bottoms" data-size-value="32">32</button>
+                </div>
+              </div>
+
+              <div class="size-block">
+                <p class="size-label">Outerwear</p>
+                <div class="size-options" role="list" aria-label="Choose outerwear size">
+                  <button class="size-choice" type="button" data-size-group="outerwear" data-size-value="XS">XS</button>
+                  <button class="size-choice" type="button" data-size-group="outerwear" data-size-value="S">S</button>
+                  <button class="size-choice" type="button" data-size-group="outerwear" data-size-value="M">M</button>
+                  <button class="size-choice" type="button" data-size-group="outerwear" data-size-value="L">L</button>
+                  <button class="size-choice" type="button" data-size-group="outerwear" data-size-value="XL">XL</button>
+                </div>
+              </div>
+
+              <div class="size-block">
+                <p class="size-label">Shoe (US)</p>
+                <div class="size-options" role="list" aria-label="Choose shoe size">
+                  <button class="size-choice" type="button" data-size-group="shoe" data-size-value="6">6</button>
+                  <button class="size-choice" type="button" data-size-group="shoe" data-size-value="7">7</button>
+                  <button class="size-choice" type="button" data-size-group="shoe" data-size-value="8">8</button>
+                  <button class="size-choice" type="button" data-size-group="shoe" data-size-value="9">9</button>
+                  <button class="size-choice" type="button" data-size-group="shoe" data-size-value="10">10</button>
+                  <button class="size-choice" type="button" data-size-group="shoe" data-size-value="11">11</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="size-frame-rule size-frame-rule-bottom" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="frame frame-eleven is-locked" aria-labelledby="frame-eleven-title" data-edit-frame>
+        <div class="frame-shell edit-shell">
+          <div class="edit-intro reveal">
+            <div class="reveal-copy">
+              <p class="edit-bridge" data-edit-bridge>The first edit</p>
+              <p class="edit-size-summary" data-edit-size-summary hidden></p>
+              <h2 id="frame-eleven-title" class="display-title edit-title">The world, but your taste.</h2>
+              <p class="edit-lede" data-edit-lede>
+                The answer lands after the line becomes more specific.
+              </p>
+            </div>
+          </div>
+
+          <div class="edit-placeholder reveal" data-edit-placeholder>
+            <div class="reveal-copy">
+              <p class="edit-placeholder-kicker">Not yet</p>
+              <p class="edit-placeholder-copy" data-edit-placeholder-copy>
+                Give the edit a little more shape and it will answer back.
+              </p>
+            </div>
+          </div>
+
+          <div class="edit-sequence" data-edit-sequence hidden>
+            <article class="edit-piece reveal" data-piece="denim">
+              <div class="edit-card">
+                <figure class="edit-figure reveal-media">
+                  <img
+                    src="./references/online/vintage-fendi-pants.jpg"
+                    alt="Vintage Fendi tonal black wide-leg pants photographed on a white background."
+                  />
+                </figure>
+                <div class="edit-copy reveal-copy">
+                  <p class="edit-year" data-piece-year="denim">c. 1990</p>
+                  <p class="edit-note" data-piece-note="denim">
+                    Start with the straight leg: soft in wash, exact in line.
+                  </p>
+                  <h3 class="edit-piece-name">Fendi Zucca Wide-Leg Pant</h3>
+                  <p class="edit-piece-boutique" data-piece-boutique="denim">Amarcord Vintage Fashion / New York</p>
+                  <p class="edit-piece-meta">
+                    tonal linen jacquard / marked <span data-size-meta="bottoms">size pending</span> / deadstock with original tag
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="edit-piece reveal" data-piece="coat">
+              <div class="edit-card">
+                <figure class="edit-figure reveal-media">
+                  <img
+                    src="./references/online/vintage-chanel-coat.jpg"
+                    alt="Vintage Chanel black wool longline blazer coat photographed on a white background."
+                  />
+                </figure>
+                <div class="edit-copy reveal-copy">
+                  <p class="edit-year" data-piece-year="coat">1993</p>
+                  <p class="edit-note" data-piece-note="coat">
+                    Then the coat, long enough to hold the mood without hardening it.
+                  </p>
+                  <h3 class="edit-piece-name">Chanel Wool Longline Blazer Coat</h3>
+                  <p class="edit-piece-boutique" data-piece-boutique="coat">Amarcord Vintage Fashion / New York</p>
+                  <p class="edit-piece-meta">
+                    wool with silk lining / marked <span data-size-meta="outerwear">size pending</span> / pristine with gold CC buttons
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="edit-piece reveal" data-piece="loafer">
+              <div class="edit-card">
+                <figure class="edit-figure reveal-media">
+                  <img
+                    src="./references/online/vintage-chanel-heels.jpg"
+                    alt="Vintage Chanel black satin mary jane mule heels photographed on a white background."
+                  />
+                </figure>
+                <div class="edit-copy reveal-copy">
+                  <p class="edit-year" data-piece-year="loafer">c. 1991</p>
+                  <p class="edit-note" data-piece-note="loafer">
+                    Finish with the dark shoe that keeps everything nearly silent.
+                  </p>
+                  <h3 class="edit-piece-name">Chanel Satin Mary Jane Mule</h3>
+                  <p class="edit-piece-boutique" data-piece-boutique="loafer">Amarcord Vintage Fashion / New York</p>
+                  <p class="edit-piece-meta">
+                    black satin with leather lining / marked <span data-size-meta="shoe">size pending</span> / excellent vintage condition
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
